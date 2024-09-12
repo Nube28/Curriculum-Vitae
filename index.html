@@ -11,26 +11,55 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     body{
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 11%;
+        padding-right: 11%;
+        background-color: #e0f7f6;
     }
     img{
         float: left;
-        width: 19%;
+        width: 19.5%;
         height: auto;
+    }
+    img#icon{
+        padding: 5px;
+    }
+    img#symbol {
+        float: none;
+        width: auto;
+        height: auto;
+    }
+    aside{
+        float: left; 
+        background-color: #77b8b4;
+    }
+    article{
+        background-color:#86cecb; 
+        float: left;
+    }
+    section{
+        padding: 10px; 
+        margin-left: 30px;
+    }
+    section#centro{
+        padding: 10px; 
+        margin-left: 36px; 
+        margin-right: 36px;
+    }
+    ul {
+        list-style-image: url(img/nube.png);
     }
 </style>
 <body>
     <header>
-        <img src="img/FotoMia.png" alt=""> <br>
+        <img src="img/FotoMia.png" alt="Una imagen de mi (muy guape)"> <br>
         <div style="padding-left: 20px;">
-            <h1 style="margin-left: 19%;">Alejandro Gómez Vega</h1> <br><br><br>
-            <img style="width: 25%; height: auto; float: left;" src="img/IngSoftware.png" alt="">
+            <h1 style="margin-left: 20%;">Alejandro Gómez Vega</h1> <br><br><br>
+            <img style="width: 25%; height: auto; float: left;" src="img/IngSoftware.png" alt="Futuro ingeniero en software">
         </div> <br><br><br><br><br><br><br><br><br><br>
     </header>
     <br>
-    <section style="float: left; background-color: #77b8b4;">
-        <div style="padding: 10px; margin-left: 30px;">
+    <aside>
+        <section>
             <p>
                 <h2>Educacion</h2>
                 <small>2021 - 2026</small> <br>
@@ -60,10 +89,10 @@
             </p>
             <br><br><br>
             asadasdasdasdasdasdasdasdas.<br>
-        </div>
-    </section>
-    <section style="background-color:#86cecb; margin-left: 15%;" >
-        <div style="padding: 10px; margin-left: 100px;">
+        </section>
+    </aside>
+    <article>
+        <section id="centro">
             <p>
                 <h2>Acerca de mi</h2>
             
@@ -75,11 +104,11 @@
                 <h2>Experiencia Laboral</h2>
 
                 <small>Junio 2024 - Actualmente</small><br>
-                <big>Programador Web - Waifu Sonorense</big> <br><br>
+                <a href="https://waifusonorense.com/tienda/" target=”_blank”><big>Programador Web - Waifu Sonorense</big></a> <br><br>
                 
                 Un sitio web para hacer un e-commerce acerca de la tienda Waifu Sonorense, en este proyecto <br>
                 soy la única persona trabajando, así que me ha ayudado bastante a aprender a organizarme y resolver <br>
-                problemas yo solo. <br> <br>
+                problemas yo solo. Para hacerla utilice WooCommerce, HTML y CSS. <br> <br>
 
                 <small>Julio 2024 - Agosto 2024</small> <br>
                 <big>Instructor de Unity - Provay</big> <br><br>
@@ -94,7 +123,50 @@
                 por medio de Scratch, ellos siendo capaces de hacer su propio videojuego o animación, durante <br>
                 mi experiencia aprendí mucho a ser paciente y como tratar a alumnos con tdah.
             </p>
-        </div>
-    </section>
+        </section>
+    </article>
+    <aside>
+        <section>
+            <p>
+                <h2>Conocimientos</h2>
+                <ul>
+                    <li>Java</li>
+                    <img id="symbol" src="img/java.png" alt="">
+                    |||||||||||||||||||||||||||||||||||||||    
+                    <li>CSS</li>
+                    <img id="symbol" src="img/css.png" alt="">
+                    |||||||||||||||||||
+                    <li>JavaScript</li>
+                    <img id="symbol" src="img/javaScript.png" alt="">
+                    ||||||||||||||
+                    <li>C#</li>
+                    <img id="symbol" src="img/CSharp.png" alt="">
+                    ||||||||||||
+                    <li>GDScript</li>
+                    <img id="symbol" src="img/GDScript.png" alt="">
+                    ||||||||||||
+                    <li>C++</li>
+                    <img id="symbol" src="img/CPlusPlus.png" alt="">
+                    |||||
+                </ul>   
+            </p>
+            <p>
+                <h2>Plataformas</h2>
+                <a href="https://github.com/nube28" target=”_blank”>
+                    <img id="icon" src="img/github.png" alt="">
+                </a>
+                <a  href="https://open.spotify.com/user/berry21345" target=”_blank”>
+                    <img id="icon" src="img/spotify.png" alt="">
+                </a> 
+            </p>
+            <br><br><br>
+            <p>
+                <h2>Contacto</h2>
+                <a href="mailto:alegomezvega21@gmail.com">Alegomezvega21@gmail.com</a> <br>
+                6441926727
+            </p>
+            asadasdasdasdasdasdasdasdas.<br>
+        </section>
+    </aside>
 </body>
 </html>
